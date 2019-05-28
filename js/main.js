@@ -62,24 +62,24 @@ jQuery(document).ready(function() {
 	}
 
 	//single page localscroll and scrollspy
-	var navHeight = jQuery('#header').outerHeight(true) + 80;
-	jQuery('body').scrollspy({
-		target: '.mainmenu_wrap',
-		offset: navHeight
-	});
-	if (jQuery().localScroll) {
-		jQuery('#mainmenu').localScroll({
-			duration:1900,
-			easing:'easeOutQuart',
-			offset: -40
-		});
-	}
+	// var navHeight = jQuery('#header').outerHeight(true) + 80;
+	// jQuery('body').scrollspy({
+	// 	target: '.mainmenu_wrap',
+	// 	offset: navHeight
+	// });
+	// if (jQuery().localScroll) {
+	// 	jQuery('#mainmenu').localScroll({
+	// 		duration:1900,
+	// 		easing:'easeOutQuart',
+	// 		offset: -40
+	// 	});
+	// }
 
-	//animated elements
-	jQuery('.mainmenu_wrap').on('activate.bs.scrollspy', function () {
-		var currentElementID = jQuery(this).find('li.active').last().find('a:first-child').attr('href');
-		jQuery(currentElementID).find('h2.block-header').addClass('hatch');
-	});
+	// //animated elements
+	// jQuery('.mainmenu_wrap').on('activate.bs.scrollspy', function () {
+	// 	var currentElementID = jQuery(this).find('li.active').last().find('a:first-child').attr('href');
+	// 	jQuery(currentElementID).find('h2.block-header').addClass('hatch');
+	// });
 
 
 	//bx slider

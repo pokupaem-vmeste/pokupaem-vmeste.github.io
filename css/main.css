@@ -1826,7 +1826,7 @@ p.comment-form-comment:before, p.contact-form-message:before {
 }
 
 /*widgets*/
-.single_teaser {text-align: center; margin:20px 0 43px;}
+.single_teaser {text-align: center; margin:20px 0 43px; min-height: 250px;}
 .single_teaser.icons [class^="dx-icon-"] {
     font-size: 40px;
 }
@@ -1882,7 +1882,7 @@ p.comment-form-comment:before, p.contact-form-message:before {
     font-size: 96px; border-radius: 0; background: transparent; color:#ffffff;}
 .single_teaser.icons.style2 h2 {color:#fff; font-size: 24px; margin: 12px 0 9px; }
 .single_teaser.icons.style2 h3 {
-    font-size: 18px; margin: 2px 0; text-transform: capitalize;
+    font-size: 18px; margin: 2px 0; text-transform: none;
 }
 .single_teaser.icons.style2:hover {margin-top:-1px;}
 .single_teaser.icons.style2:hover h2{color: #5CB85C;}
@@ -2094,6 +2094,7 @@ transition: all 0.2s linear;
 .left_icons{
     position: relative;
     border-radius: 2px;
+    min-height: 180px;
     background-color: #fff;
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
